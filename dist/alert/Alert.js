@@ -19,7 +19,7 @@ var Alert = (0, _glamorousCjs2.default)('div')({
   alignItems: 'center',
   justifyContent: 'space-between',
   borderRadius: '2px',
-  fontSize: '11px',
+  fontSize: '14px',
   boxShadow: '0 8px 12px 0 rgba(0,0,0,0.3)',
   position: 'relative',
   '&.scale-enter': {
