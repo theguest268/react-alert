@@ -13,7 +13,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var Message = (0, _glamorousCjs2.default)('div')({
   flex: 3,
   textAlign: 'center',
-  textTransform: 'uppercase',
+  // textTransform: 'uppercase',
   padding: '8px 10px',
   marginRight: '50px'
 });

@@ -1,7 +1,8 @@
 import glamorous from 'glamorous/dist/glamorous.cjs.tiny'
 
 const Alert = glamorous('div')({
-  width: '300px',
+  minWidth: '300px',
+  maxWidth: '600px',
   minHeight: '50px',
   margin: '10px 0 0 0',
   display: 'flex',

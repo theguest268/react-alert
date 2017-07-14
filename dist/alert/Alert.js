@@ -11,7 +11,8 @@ var _glamorousCjs2 = _interopRequireDefault(_glamorousCjs);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var Alert = (0, _glamorousCjs2.default)('div')({
-  width: '300px',
+  minWidth: '300px',
+  maxWidth: '600px',
   minHeight: '50px',
   margin: '10px 0 0 0',
   display: 'flex',
