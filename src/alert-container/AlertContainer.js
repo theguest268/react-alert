@@ -19,8 +19,10 @@ class AlertContainer extends Component {
     position: PropTypes.oneOf([
       'bottom left',
       'bottom right',
+      'bottom center',
       'top right',
-      'top left'
+      'top left',
+      'top center',
     ]),
     theme: PropTypes.oneOf(['dark', 'light']),
     time: PropTypes.number,

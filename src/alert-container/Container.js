@@ -24,6 +24,14 @@ const Container = glamorous('div')({
         bottom: 'auto',
         left: 'auto'
       }
+    case 'top center':
+      return {
+        margin: `${props.glam.offset}px`,
+        top: 0,
+        right: '50%',
+        bottom: 'auto',
+        left: 'auto'
+      }  
     case 'bottom left':
       return {
         margin: `${props.glam.offset}px`,
@@ -37,6 +45,14 @@ const Container = glamorous('div')({
         margin: `${props.glam.offset}px`,
         top: 'auto',
         right: 0,
+        bottom: 0,
+        left: 'auto'
+      }
+    case 'bottom center':
+      return {
+        margin: `${props.glam.offset}px`,
+        top: 'auto',
+        right: '50%',
         bottom: 0,
         left: 'auto'
       }
